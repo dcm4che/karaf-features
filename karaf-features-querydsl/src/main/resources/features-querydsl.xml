@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="querydsl">
+  <feature name='querydsl' version='3.2.4'>
+    <feature version='2.0.2'>jsr305</feature>
+    <feature version='1.1-20130918'>cdi-api</feature>
+    <feature version='3.0.0'>javax.el-api</feature>
+    <bundle>mvn:javax.annotation/javax.annotation-api/1.2</bundle>
+    <bundle>mvn:com.mysema.commons/mysema-commons-lang/0.2.4</bundle>
+    <bundle>mvn:com.google.guava/guava/13.0.1</bundle>
+    <bundle>mvn:com.mysema.querydsl/querydsl-core/3.2.4</bundle>
+    <bundle>wrap:mvn:com.mysema.querydsl/querydsl-jpa/3.2.4</bundle>
+  </feature>
+  <feature name='jsr305' version='2.0.2'>
+    <bundle>wrap:mvn:com.google.code.findbugs/jsr305/2.0.2</bundle>
+  </feature>
+  <feature name='cdi-api' version='1.1-20130918'>
+    <bundle>mvn:javax.interceptor/javax.interceptor-api/1.2</bundle>
+    <bundle>mvn:javax.enterprise/cdi-api/1.1-20130918</bundle>
+  </feature>
+  <feature name='javax.el-api' version='3.0.0'>
+    <bundle>mvn:javax.el/javax.el-api/3.0.0</bundle>
+  </feature>
+</features>

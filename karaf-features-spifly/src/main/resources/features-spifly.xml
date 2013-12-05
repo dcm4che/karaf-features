@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<features>
+  <feature name="spifly">
+    <bundle>mvn:org.apache.aries.spifly/org.apache.aries.spifly.dynamic.bundle/1.0.0</bundle>
+  </feature>
+</features>

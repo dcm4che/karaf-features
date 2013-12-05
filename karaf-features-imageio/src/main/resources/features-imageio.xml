@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<features>
+  <feature name="imageio">
+
+    <!--bundle>wrap:file:///opt/dcm4chee-4.2.0-SNAPSHOT/imageio-generic-0.0.1-SNAPSHOT.jar</bundle-->
+    <!--bundle>wrap:file:///opt/dcm4chee-4.2.0-SNAPSHOT/imageio-charls-0.0.1-SNAPSHOT.jar</bundle-->
+
+    <bundle>wrap:mvn:com.sun.media/jai_imageio/1.2-pre-dr-b04</bundle>
+    <bundle>wrap:mvn:com.sun.media/clibwrapper_jiio/1.2-pre-dr-b04</bundle>
+  </feature>
+</features>
